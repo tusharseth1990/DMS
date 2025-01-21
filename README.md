@@ -26,14 +26,15 @@ The server program’s main method should accept an argument specifying a config
 3. any other value(s) you think should be configurable
 
 ## Prerequisites
-Please make sure you have Java Development Kit (JDK) installed (version 8 or higher).
-Please make sure you have Apache Maven installed.
-Please make sure you have the necessary permissions to create and delete files and directories.
+1. Please install Java Development Kit (JDK) (version 8 or higher). Try v17 for better compatibility.
+2. Please make sure you have Apache Maven installed.
+3. Please ensure you have the necessary permissions to create and delete files and directories.
+Note: In some version,you might face issues then try commenting test files, 
 
 # How to clone
 Clone the repository:  
 git clone https://github.com/tusharseth1990/DMS.git
-
+or download the zip file.
 
 # Building the Application
 Open a terminal and navigate to the root directory of the project.
@@ -76,7 +77,8 @@ Needs directory.path value
 
 Example: In the current project, I have used
 directory.path = src/main/resources
-So when we run both server and client, we need to upload a java properties file in the directory i.e. example.properties in src/main/resources folder to see the live working of the application.
+
+So when we run both server and client, we need to upload a single/ multiple java properties file in the directory i.e. example.properties in src/main/resources folder to see the live working of the application.
 
 # Sample Example Properties File (example.properties)
 config.name=example
@@ -84,7 +86,7 @@ config.version=1.0
 debug.enabled=true
 other.unrelated.key=shouldNotAppear
 
-Kindly upload it to the directory.path folder location. For understanding, I am uploading the sample as per the sample.
+Kindly upload it to the directory.path folder location. For understanding, I am uploading the sample example.properties as per the sample.
 
 Also while running the client make sure the command line argument is passed.
 Attaching local config screenshots
