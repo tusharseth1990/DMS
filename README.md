@@ -37,10 +37,10 @@ The server requires a configuration file to run. The configuration file should b
 output.directory=/path/to/output/directory
 server.port=8080
 
-# How to Run
+# How to clone
 Clone the repository:  
-git clone https://github.com/tusharseth1990/your-repo-name.git
-cd your-repo-name/server
+git clone https://github.com/tusharseth1990/DMS.git
+
 
 # Build the project using Maven:  
 mvn clean install
