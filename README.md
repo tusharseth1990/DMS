@@ -1,6 +1,6 @@
 # DMS
 
-# Directory Monitor Server
+# Directory Monitor System
 ## Overview
 The Directory Monitor Server is a Java-based application that monitors a directory for incoming java properties files and processes them. It uses Java 8 features and is modularized for better readability and maintainability.
 
